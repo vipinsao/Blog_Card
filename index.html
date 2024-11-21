@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreatFrontEnd Projects</title>
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+            /* background-color: #d2d6db; */
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #d2d6db;
+            height: 100vh;
+            /* width: 100vw; */
+            margin: 0 auto;
+        }
+        .card{
+            max-height: 504px;
+            max-width: 340px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        img{
+           height: 288px;
+           width: 340px;
+           border-top-left-radius: 8px;
+           border-top-right-radius: 8px;
+           /* position: fixed; */
+        }
+        #s1{
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+            background-color: #f0fdf4;
+            padding: 4px 6px;
+            border-radius: 50px;
+            font-size: 12px;
+            /* margin-bottom: 8px; */
+        }
+        .content{
+            padding: 16px 24px;
+        }
+        #h2{
+            font-size: 18px;
+            margin-top: 14px;
+            margin-bottom: 14px;
+            font-weight: 600;
+        }
+        #p1{
+            opacity: 70%;
+            margin-bottom: 20px;
+        }
+        #p2{
+            color: #4338ca;
+            font-weight: 500;
+            margin-right: 10px;
+        }
+        #ra{
+            font-size: 25px;
+            color: #4338ca;
+        }
+        .fa-arrow-right{
+            color: #4338ca;
+            font-weight: 200;
+        }
+        a{
+           display: inline;
+           text-decoration: none;
+           display: flex;
+           flex-direction: row;
+           /* background-color: #d2d6db; */
+        }
+    /* Tablet (768px to 1439px) */
+    @media (min-width: 768px) and (max-width: 1439px) {
+      .container {
+        max-width: 100%;
+        padding: 32px;
+      }
+
+      .card {
+        width: 100%;
+      }
+    }
+    /* Mobile (375px to 767px) */
+    @media (max-width: 767px) {
+      .container {
+        max-width: 100%;
+        padding: 16px;
+      }
+
+      .card {
+        width: 100%;
+        height:auto;
+      }
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .credits{
+        display: flex;
+        flex-direction: row;
+         background-color: #d2d6db;
+    }
+    .footer{
+        margin-left: 4px;
+    }
+    </style>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg" alt="blog image">
+            <div class="content">
+                <span id="s1">Interior</span>
+                <h2 id="h2">Top 5 Living Room Inspirations</h2>
+                <p id="p1">Curated vibrants colors for your living, make it pop & calm in the same time.</p>
+                <div class="readM">
+                  <a href="#"><p id="p2">Read more</p>
+                   <i class="fas fa-arrow-right" style='font-size:24px'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+      <!-- Attribute this challenge to yourself! -->
+    <div class="credits" data-gfe-screenshot-exclude="true">
+      A challenge by
+      <a
+        href="https://www.greatfrontend.com/projects?ref=challenges"
+        target="_blank"
+        class="footer"
+        >GreatFrontEnd Projects</a
+      >. Built by
+      <a
+        href="https://www.greatfrontend.com/projects/u/03032001"
+        target="_blank"
+        class="footer"
+        >vipin chandra sao</a
+      >.
+    </div>
+</body>
+</html>
